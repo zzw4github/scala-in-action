@@ -11,5 +11,5 @@ scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature")
 
 
 libraryDependencies ++= Seq(
-  "org.specs2" %% "specs2" % "1.13" % "test"
+  "org.specs2" %% "specs2-core" % "3.8.4" % "test"
 )

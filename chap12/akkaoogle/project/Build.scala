@@ -17,9 +17,9 @@ object AkkaoogleBuild extends Build with ConfigureScalaBuild {
 	)
    .settings(
    	 libraryDependencies ++= Seq(
-	     "com.typesafe.akka" %% "akka-actor" % "2.1.0",
-	     "com.typesafe.akka" %% "akka-remote" % "2.1.0",
-	     "com.typesafe.akka" %% "akka-agent" % "2.1.0",
+	     "com.typesafe.akka" %% "akka-actor" % "2.4.8",
+	     "com.typesafe.akka" %% "akka-remote" % "2.4.8",
+	     "com.typesafe.akka" %% "akka-agent" % "2.4.8",
 	     "com.h2database" % "h2" % "1.2.127",
        "org.squeryl" % "squeryl_2.11.8-RC5" % "0.9.5-5",
        "org.specs2" %% "specs2" % "1.13" % "test",

@@ -7,4 +7,4 @@ organization := "Scala in Action"
 // append options passed to the Scala compiler
 scalacOptions ++= Seq("-deprecation", "-unchecked", "-language:_")
 
-libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.1.0"
+libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.4.8"

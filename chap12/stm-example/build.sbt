@@ -12,6 +12,6 @@ resolvers += ("Typesafe Repository" at "http://repo.typesafe.com/typesafe/releas
 
 libraryDependencies ++= Seq(
 	"org.scala-stm" %% "scala-stm" % "0.7",
-  "org.specs2" %% "specs2" % "1.13" % "test"
+  "org.specs2" %% "specs2-core" % "3.8.4" % "test"
 )
 
